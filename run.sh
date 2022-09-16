@@ -1,3 +1,6 @@
+echo "run: docker & installing desktop"
+docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
+
 echo "run: update & upgrade"
 apt upgrade -y
 apt update -y
