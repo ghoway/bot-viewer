@@ -21,3 +21,6 @@ apt install pip -y --fix-missing
 python -m pip install --upgrade pip wheel
 pip install "setuptools<59"
 pip install -r requirements.txt
+apt install nano
+cd YouTube-Viewer
+nano urls.txt
