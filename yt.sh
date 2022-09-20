@@ -11,6 +11,9 @@ echo "run: installing zip"
 apt install zip -y
 apt install zip -y --fix-missing
 
+echo "installing editor"
+apt install nano
+
 echo "run: clone YTView"
 git clone https://github.com/MShawon/YouTube-Viewer.git --depth 10
 cd YouTube-Viewer
@@ -21,6 +24,4 @@ apt install pip -y --fix-missing
 python -m pip install --upgrade pip wheel
 pip install "setuptools<59"
 pip install -r requirements.txt
-apt install nano
-cd YouTube-Viewer
 nano urls.txt
